@@ -1,7 +1,6 @@
 ---
 title: Resources
 description: Curated references that help builders execute faster.
-tags: [resources]
 last_reviewed: 2026-03-04
 ---
 
@@ -12,5 +11,3 @@ last_reviewed: 2026-03-04
 - Testing and quality references
 
 Add practical resources with direct relevance to shipping microproducts.
-
-Propose an improvement: [open a pull request](https://github.com/TrilemmaFoundation/microproduct-incubator/pulls)

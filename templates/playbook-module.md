@@ -1,7 +1,6 @@
 ---
 title: "<Module Title>"
 description: "One-sentence summary of the playbook module."
-tags: [playbook]
 last_reviewed: 2026-03-04
 ---
 
@@ -22,5 +21,3 @@ Common mistakes and how to avoid them.
 ## References
 
 - Add primary references.
-
-Propose an improvement: [open a pull request](https://github.com/TrilemmaFoundation/microproduct-incubator/pulls)

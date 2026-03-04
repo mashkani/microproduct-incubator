@@ -1,33 +1,17 @@
 # Contributing
 
-Thank you for helping grow the Microproduct Incubator knowledge hub.
+Thank you for helping improve the Microproduct Incubator knowledge hub. The full contribution workflow lives in the site guide at `/contribute` and in [`docs/contribute/how-to-contribute.md`](docs/contribute/how-to-contribute.md), which is the canonical source of truth.
 
-## 5-Step Contribution Flow
+## Quickstart
 
-1. Fork the repository and create a branch from `main`.
-2. Add or update content in `docs/` using the templates in `templates/`.
-3. Ensure required frontmatter fields are present in each markdown file:
-   - `title`
-   - `description`
-   - `tags`
-   - `last_reviewed` (`YYYY-MM-DD`)
-4. Run checks locally:
+- Add or update content in `docs/` using a template from `templates/`.
+- Ensure each markdown file includes `title`, `description`, and `last_reviewed` (`YYYY-MM-DD`) frontmatter.
+- Run checks locally:
 
 ```bash
 npm run check
 ```
 
-1. Open a pull request and complete the checklist.
+- Open a pull request and complete the checklist.
 
-## Content Standards
-
-- Keep entries concise, practical, and builder-oriented.
-- Use clear headings and concrete examples.
-- Link to primary references where possible.
-- Add one line at the end of each page:
-  - `Propose an improvement: [open a pull request](https://github.com/TrilemmaFoundation/microproduct-incubator/pulls)`
-
-## Review Policy
-
-- All contributions are reviewed by committee members before merge.
-- PRs missing metadata or structure will be returned for edits.
+For contribution details, review expectations, and section-specific guidance, use [`docs/contribute/how-to-contribute.md`](docs/contribute/how-to-contribute.md).

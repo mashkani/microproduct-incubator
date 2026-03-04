@@ -2,7 +2,6 @@
 title: How to Contribute
 description: Exact process for proposing and publishing new hub content.
 slug: /
-tags: [contribute, governance]
 last_reviewed: 2026-03-04
 ---
 
@@ -19,5 +18,3 @@ last_reviewed: 2026-03-04
 - Clear structure
 - Actionable information
 - Correct metadata
-
-Propose an improvement: [open a pull request](https://github.com/TrilemmaFoundation/microproduct-incubator/pulls)

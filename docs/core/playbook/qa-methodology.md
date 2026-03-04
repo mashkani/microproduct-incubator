@@ -1,7 +1,6 @@
 ---
 title: QA Methodology
 description: Lightweight quality process for microproduct MVPs.
-tags: [playbook, qa]
 last_reviewed: 2026-03-04
 ---
 
@@ -16,5 +15,3 @@ last_reviewed: 2026-03-04
 - Functional path test
 - Error handling test
 - Accessibility spot check
-
-Propose an improvement: [open a pull request](https://github.com/TrilemmaFoundation/microproduct-incubator/pulls)

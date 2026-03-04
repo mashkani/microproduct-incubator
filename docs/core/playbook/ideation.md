@@ -1,7 +1,6 @@
 ---
 title: Ideation
 description: How to identify and prioritize strong microproduct opportunities.
-tags: [playbook, ideation]
 last_reviewed: 2026-03-04
 ---
 
@@ -14,5 +13,3 @@ last_reviewed: 2026-03-04
 ## Output
 
 A one-page problem brief with target user, input data, output utility, and success metric.
-
-Propose an improvement: [open a pull request](https://github.com/TrilemmaFoundation/microproduct-incubator/pulls)

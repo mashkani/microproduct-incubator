@@ -1,7 +1,6 @@
 ---
 title: Implementation
 description: Build steps for taking a microproduct from concept to usable MVP.
-tags: [playbook, implementation]
 last_reviewed: 2026-03-04
 ---
 
@@ -16,5 +15,3 @@ last_reviewed: 2026-03-04
 - Core task completed in under 3 minutes.
 - Basic reliability and error handling in place.
 - One feedback loop collected from real users.
-
-Propose an improvement: [open a pull request](https://github.com/TrilemmaFoundation/microproduct-incubator/pulls)

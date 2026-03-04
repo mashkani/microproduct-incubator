@@ -1,7 +1,6 @@
 ---
 title: Architecture
 description: Minimal architecture patterns for shipping microproducts quickly.
-tags: [playbook, architecture]
 last_reviewed: 2026-03-04
 ---
 
@@ -16,5 +15,3 @@ last_reviewed: 2026-03-04
 - Frontend: simple web UI
 - Backend: focused API endpoints
 - Data: one source of truth for core entities
-
-Propose an improvement: [open a pull request](https://github.com/TrilemmaFoundation/microproduct-incubator/pulls)

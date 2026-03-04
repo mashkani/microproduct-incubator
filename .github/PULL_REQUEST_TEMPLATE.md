@@ -14,12 +14,11 @@ Describe what you changed and why.
 
 - [ ] `title` included
 - [ ] `description` included
-- [ ] `tags` included
 - [ ] `last_reviewed` uses `YYYY-MM-DD`
 
 ## Quality Checklist
 
 - [ ] Followed template format
 - [ ] Added/updated links with context
+- [ ] Did not introduce unused tag metadata
 - [ ] Ran `npm run check`
-- [ ] Added "Propose an improvement" line to new pages

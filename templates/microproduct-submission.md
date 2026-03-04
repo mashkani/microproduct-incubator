@@ -1,7 +1,6 @@
 ---
 title: "<Microproduct Name>"
 description: "One-sentence summary of the utility this microproduct provides."
-tags: [showcase, submission]
 last_reviewed: 2026-03-04
 ---
 
@@ -25,5 +24,3 @@ Idea | Prototype | Live
 ## Maintainer
 
 - GitHub handle:
-
-Propose an improvement: [open a pull request](https://github.com/TrilemmaFoundation/microproduct-incubator/pulls)

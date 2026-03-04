@@ -1,7 +1,6 @@
 ---
 title: Mission
 description: Why this open knowledge hub exists and what success looks like.
-tags: [intro, mission]
 last_reviewed: 2026-03-04
 ---
 
@@ -16,5 +15,3 @@ The Microproduct Incubator exists to help technical builders create useful tools
 ## Community Model
 
 Anyone can contribute through pull requests. Committee members review and curate quality for publication.
-
-Propose an improvement: [open a pull request](https://github.com/TrilemmaFoundation/microproduct-incubator/pulls)
