@@ -45,26 +45,22 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: 'Microproduct Incubator',
+      logo: {
+        alt: 'Trilemma Foundation',
+        src: 'img/trilemma_foundation.png',
+        srcDark: 'img/trilemma_foundation_white.png',
+        href: '/',
+        height: 26,
+      },
       items: [
         {
           to: '/docs/intro/what-is-a-microproduct',
-          label: 'Start Here',
-          position: 'left',
-        },
-        {
-          to: '/docs/playbook/ideation',
-          label: 'Playbook',
+          label: 'Docs',
           position: 'left',
         },
         {
           to: '/docs/showcase/microproducts',
           label: 'Showcase',
-          position: 'left',
-        },
-        {
-          to: '/docs/resources/',
-          label: 'Resources',
           position: 'left',
         },
         {
@@ -75,7 +71,14 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
+      logo: {
+        alt: 'Trilemma Foundation',
+        src: 'img/trilemma_foundation.png',
+        srcDark: 'img/trilemma_foundation_white.png',
+        href: 'https://trilemma.foundation',
+        height: 40,
+      },
       links: [
         {
           title: 'Community',
