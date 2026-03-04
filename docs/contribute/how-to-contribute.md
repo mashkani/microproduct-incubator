@@ -1,6 +1,7 @@
 ---
 title: How to Contribute
 description: Exact process for proposing and publishing new hub content.
+slug: /
 tags: [contribute, governance]
 last_reviewed: 2026-03-04
 ---

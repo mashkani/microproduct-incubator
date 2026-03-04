@@ -1,6 +1,7 @@
 ---
 title: Microproducts Showcase
 description: Community-maintained table of microproducts being built.
+slug: /
 tags: [showcase, community]
 last_reviewed: 2026-03-04
 ---

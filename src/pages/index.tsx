@@ -16,7 +16,7 @@ export default function Home() {
         }}
         secondaryCta={{
           label: 'Contribute',
-          to: '/docs/contribute/how-to-contribute',
+          to: '/contribute',
         }}
       />
     </Layout>

@@ -33,6 +33,14 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl: `${REPO_URL}/edit/main/`,
+          exclude: [
+            '**/_*.{js,jsx,ts,tsx,md,mdx}',
+            '**/_*/**',
+            '**/*.test.{js,jsx,ts,tsx}',
+            '**/__tests__/**',
+            'showcase/**',
+            'contribute/**',
+          ],
         },
         blog: false,
         pages: {},
@@ -40,6 +48,28 @@ const config: Config = {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
+    ],
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'showcase',
+        path: 'docs/showcase',
+        routeBasePath: 'showcase',
+        sidebarPath: false,
+        editUrl: `${REPO_URL}/edit/main/`,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'contribute',
+        path: 'docs/contribute',
+        routeBasePath: 'contribute',
+        sidebarPath: './sidebarsContribute.ts',
+        editUrl: `${REPO_URL}/edit/main/`,
+      },
     ],
   ],
 
@@ -59,12 +89,12 @@ const config: Config = {
           position: 'left',
         },
         {
-          to: '/docs/showcase/microproducts',
+          to: '/showcase',
           label: 'Showcase',
           position: 'left',
         },
         {
-          to: '/docs/contribute/how-to-contribute',
+          to: '/contribute',
           label: 'Contribute',
           position: 'left',
         },

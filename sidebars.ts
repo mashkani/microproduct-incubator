@@ -19,18 +19,8 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Showcase',
-      items: ['showcase/microproducts'],
-    },
-    {
-      type: 'category',
       label: 'Resources',
       items: ['resources/index'],
-    },
-    {
-      type: 'category',
-      label: 'Contribute',
-      items: ['contribute/how-to-contribute'],
     },
   ],
 };
