@@ -80,6 +80,7 @@ const config: Config = {
           to: '/docs/intro/what-is-a-microproduct',
           label: 'Docs',
           position: 'left',
+          activeBaseRegex: '^/docs/',
         },
         {
           to: '/showcase',
