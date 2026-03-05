@@ -8,6 +8,36 @@ last_reviewed: 2026-03-05
 
 Use this module when your microproduct depends on repeatable data pipelines, reliable metrics, or derived datasets beyond a single script. It is designed for builders shipping MVPs who need fast, practical decisions without over-engineering.
 
+## What Is Analytics Engineering
+
+Analytics engineering is the discipline of turning raw data into trusted, reusable datasets for product and decision-making. It sits between data ingestion and product analytics consumption.
+
+In practice, analytics engineering owns:
+
+- Data modeling in SQL (clean staging models, business-ready marts).
+- Data quality (tests for freshness, uniqueness, null handling, and contracts).
+- Metric and logic consistency (same business definitions across features and reports).
+- Reliability for downstream consumers (versioned models, predictable refresh behavior, and clear ownership).
+
+For MVP microproducts, analytics engineering means your product logic is encoded in tested data models instead of scattered across dashboards, notebooks, and API handlers.
+
+## What Is The Modern Data Stack
+
+The modern data stack is a composable set of tools where storage, transformation, orchestration, and observability are handled by specialized systems connected through code.
+
+Core layers for this playbook:
+
+- Storage/compute layer: DuckDB (local-first) or Snowflake (warehouse-first).
+- Transformation layer: dbt for SQL model development, testing, and documentation.
+- Orchestration layer: Dagster for dependency graphs, scheduling, retries, and run tracking.
+- Serving layer: APIs, internal tools, or product features that consume curated marts.
+
+What makes it "modern" is not any single tool. It is the operating model:
+
+- Code-defined pipelines and models.
+- Automated validation before data is consumed.
+- Modular components that can be swapped as scale and requirements change.
+
 ## Opinionated Defaults
 
 - Local-first default: `Dagster + dbt + DuckDB`
