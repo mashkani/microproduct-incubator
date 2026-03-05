@@ -11,10 +11,29 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Playbook',
       items: [
-        'playbook/ideation',
-        'playbook/architecture',
-        'playbook/implementation',
-        'playbook/qa-methodology',
+        {
+          type: 'category',
+          label: 'Getting Started',
+          items: [
+            'playbook/getting-started',
+            'playbook/ideation',
+            'playbook/architecture',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Implementation',
+          items: [
+            'playbook/implementation-phase',
+            'playbook/implementation',
+            'playbook/qa-methodology',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'End-to-End Ownership',
+          items: ['playbook/end-to-end-ownership'],
+        },
       ],
     },
     {
