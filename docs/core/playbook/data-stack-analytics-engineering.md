@@ -10,16 +10,17 @@ Use this module when your microproduct depends on repeatable data pipelines, rel
 
 ## What Is Analytics Engineering
 
-Analytics engineering is the discipline of turning raw data into trusted, reusable datasets for product and decision-making. It sits between data ingestion and product analytics consumption.
+Analytics engineering is the discipline of turning raw data into trusted, reusable datasets for product and decision-making using both SQL and Python. It sits between data ingestion and product analytics consumption.
 
 In practice, analytics engineering owns:
 
-- Data modeling in SQL (clean staging models, business-ready marts).
+- Data modeling in SQL and Python (clean staging models, business-ready marts, and programmatic transformations when needed).
+- Pipeline logic in Python for orchestration, validations, and reusable data utilities.
 - Data quality (tests for freshness, uniqueness, null handling, and contracts).
 - Metric and logic consistency (same business definitions across features and reports).
 - Reliability for downstream consumers (versioned models, predictable refresh behavior, and clear ownership).
 
-For MVP microproducts, analytics engineering means your product logic is encoded in tested data models instead of scattered across dashboards, notebooks, and API handlers.
+For MVP microproducts, analytics engineering means your product logic is encoded in tested SQL models and Python data workflows instead of scattered across dashboards, notebooks, and API handlers.
 
 ## What Is The Modern Data Stack
 
