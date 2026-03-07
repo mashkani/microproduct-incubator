@@ -6,7 +6,7 @@ const REPO_URL = 'https://github.com/TrilemmaFoundation/microproduct-incubator';
 const config: Config = {
   title: 'Microproduct Incubator',
   tagline: 'Focused apps that turn data into usable tools and real utility.',
-  favicon: 'img/trilemma_foundation.png',
+  favicon: 'img/favicon.svg',
 
   url: 'https://microproducts.trilemma.foundation',
   baseUrl: '/',
