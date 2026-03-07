@@ -18,6 +18,7 @@ const sidebars: SidebarsConfig = {
             'playbook/getting-started',
             'playbook/ideation',
             'playbook/architecture',
+            'playbook/data-stack-analytics-engineering',
           ],
         },
         {

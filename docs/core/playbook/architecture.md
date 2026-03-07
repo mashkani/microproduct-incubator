@@ -55,4 +55,9 @@ Produce a brief that includes:
 - Cost calculators and sizing worksheets.
 - Migration patterns when initial architecture limits growth.
 
+## Next Step
+
+For orchestration, transformation, and analytics storage decisions, continue with
+[Data Stack & Analytics Engineering](/docs/playbook/data-stack-analytics-engineering).
+
 [Propose an improvement](https://github.com/TrilemmaFoundation/microproduct-incubator/pulls)

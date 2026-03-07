@@ -1,8 +1,7 @@
 ---
 title: Resources
 description: Curated references that help builders execute faster.
-tags: [resources]
-last_reviewed: 2026-03-04
+last_reviewed: 2026-03-05
 ---
 
 ## Starter Resource Types
@@ -13,4 +12,12 @@ last_reviewed: 2026-03-04
 
 Add practical resources with direct relevance to shipping microproducts.
 
-Propose an improvement: https://github.com/TrilemmaFoundation/microproduct-incubator/pulls
+## Modern Data Stack References
+
+For implementation guidance and decision criteria, start with
+[Data Stack & Analytics Engineering](/docs/playbook/data-stack-analytics-engineering).
+
+- Dagster Docs: [https://docs.dagster.io](https://docs.dagster.io)
+- dbt Docs: [https://docs.getdbt.com/docs/introduction](https://docs.getdbt.com/docs/introduction)
+- DuckDB Docs: [https://duckdb.org/docs/](https://duckdb.org/docs/)
+- Snowflake Docs: [https://docs.snowflake.com/](https://docs.snowflake.com/)

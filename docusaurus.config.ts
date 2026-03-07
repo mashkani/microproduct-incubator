@@ -6,7 +6,7 @@ const REPO_URL = 'https://github.com/TrilemmaFoundation/microproduct-incubator';
 const config: Config = {
   title: 'Microproduct Incubator',
   tagline: 'Focused apps that turn data into usable tools and real utility.',
-  favicon: 'img/logo.svg',
+  favicon: 'img/trilemma_foundation.png',
 
   url: 'https://microproducts.trilemma.foundation',
   baseUrl: '/',
@@ -60,7 +60,7 @@ const config: Config = {
         id: 'contribute',
         path: 'docs/contribute',
         routeBasePath: 'contribute',
-        sidebarPath: './sidebarsContribute.ts',
+        sidebarPath: false,
         editUrl: `${REPO_URL}/edit/main/`,
       },
     ],

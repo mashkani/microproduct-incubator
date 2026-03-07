@@ -2,7 +2,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const docsRoot = path.resolve('docs');
-const requiredFields = ['title', 'description', 'tags', 'last_reviewed'];
+const templatesRoot = path.resolve('templates');
+const requiredFields = ['title', 'description', 'last_reviewed'];
 const dateRegex = /^\d{4}-\d{2}-\d{2}$/;
 
 const errors = [];
@@ -52,6 +53,10 @@ function validateFile(filePath) {
     }
   }
 
+  if (hasField(frontmatter, 'tags')) {
+    errors.push(`${filePath}: tags are not supported in frontmatter`);
+  }
+
   const dateMatch = frontmatter.match(/^last_reviewed:\s*(.+)$/m);
   if (!dateMatch) {
     errors.push(`${filePath}: missing last_reviewed value`);
@@ -80,10 +85,15 @@ function validateShowcaseTable() {
   }
 }
 
-if (!fs.existsSync(docsRoot)) {
-  errors.push('docs directory does not exist');
-} else {
-  walk(docsRoot);
+for (const [label, root] of [
+  ['docs', docsRoot],
+  ['templates', templatesRoot],
+]) {
+  if (!fs.existsSync(root)) {
+    errors.push(`${label} directory does not exist`);
+    continue;
+  }
+  walk(root);
 }
 
 validateShowcaseTable();
